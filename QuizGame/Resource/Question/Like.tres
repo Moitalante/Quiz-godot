@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resources/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "I ---- Vitor Kley. (to like)"
+type = 0
+options = [ "Like", "Likes", "Doesn't like", "Doesn't likes" ]
+correct = "Like"

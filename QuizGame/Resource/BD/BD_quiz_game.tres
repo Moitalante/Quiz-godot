@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://scripts/resources/bd_quiz.gd" type="Script" id=1]
+[ext_resource path="res://Resource/Question/Camiseta.tres" type="Resource" id=2]
+[ext_resource path="res://Resource/Question/Like.tres" type="Resource" id=3]
+[ext_resource path="res://Resource/Question/image_abacaxi.tres" type="Resource" id=4]
+[ext_resource path="res://Resource/Question/Video_gatinhos.tres" type="Resource" id=5]
+[ext_resource path="res://Resource/Question/Image_Urso.tres" type="Resource" id=6]
+[ext_resource path="res://Resource/Question/Audio_lobo.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+bd = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ]
